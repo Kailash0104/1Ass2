@@ -1,0 +1,23 @@
+a={1:[1,'somu','1/3/2022','Manager',55000,'vizag'],
+
+2:[2,'kailadh','13/3/2022','Manager',39000,'Hyderabad'],
+
+3:[3,'raju','20/5/2022','Asst Manager',16500,'mumbai'],
+
+4:[4,'joshi','2/5/2022','Store Manager',18500,'Delhi'],
+
+5:[5,'guna','1/5/2022','General Manager',12000,'Hyderabad']}
+
+x=int(input('Enter a number:'))
+
+print('Enter EMPNO:',a[x][0])
+
+print('Enter EMPNAME:',a[x][1])
+
+print('Date of joining:',a[x][2])
+
+print('EMPDESIGN:',a[x][3])
+
+print('EMPSAL:',a[x][4])
+
+print('City:',a[x][5])
